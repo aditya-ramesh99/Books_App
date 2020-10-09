@@ -1,0 +1,46 @@
+*{
+    margin: 5;
+    padding: 10;
+}
+
+.body {
+    max-width: 500px;
+    margin: auto;
+    background-color: #d04608;
+}
+
+.top-bar {
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+
+.btn {
+    background: #0892d0;
+    color: white;
+    border: 1.5;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+body {background-color: #d0082e;}
+
+.error {
+    background:red;
+    color: #fff;
+    padding: 1rem;
+}
