@@ -1,4 +1,4 @@
-const url = '../docs/Getting-Things-Done8freebooks.net_.pdf';
+const url = '../pdf_reader_backend/docs/Getting-Things-Done8freebooks.net_.pdf';
 
 let pdfDoc = null,
     pageNum = 1,
