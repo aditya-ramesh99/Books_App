@@ -85,3 +85,5 @@ pdfjsLib.getDocument(url).promise.then(pdfDoc_ => {
 //assigning events to buttons
 document.getElementById('prev-page').addEventListener('click', prevPage);
 document.getElementById('next-page').addEventListener('click', nextPage);
+document.getElementById('right').addEventListener('click', nextPage);
+document.getElementById('left').addEventListener('click', prevPage);
