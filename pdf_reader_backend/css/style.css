@@ -1,12 +1,18 @@
 *{
-    margin: 5;
-    padding: 10;
+    margin: 0;
 }
 
 .body {
     max-width: 500px;
     margin: auto;
     background-color: #d04608;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2rem 2rem;
+    justify-self: end;
+    
 }
 
 .top-bar {
@@ -16,12 +22,14 @@
 }
 
 canvas {
+    justify-self: center;
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 800px;
+    width: 80%;
+    height: auto;
 }
 
 .btn {
